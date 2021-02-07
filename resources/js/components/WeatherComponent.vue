@@ -78,6 +78,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+axios.defaults.baseURL = 'https://temperature-vue.herokuapp.com/api'
 export default {
     name: "WeatherComponent",
     watch: {
@@ -123,7 +125,7 @@ export default {
             // fetch(req)
             // .then(response => response.json())
             // .then(({current, daily}) => {
-            axios.get(`https://temperature-vue.herokuapp.com/api/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
+            axios.get(`/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
             .then(({data:{current, daily}}) => {
                 this.currentTemInfo.actual = Math.round(current.temp);
                 this.currentTemInfo.feels = Math.round(current.feels_like);
