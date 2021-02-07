@@ -11,7 +11,7 @@
         "postinstall": "npm run prod"
     },
     "engines": {
-        "node": "6.x"
+        "node": "7.6.x"
     },
 
     "devDependencies": {
