@@ -7,6 +7,7 @@
     <title>Weather app</title>
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
     <link rel="stylesheet" href="/css/app.css">
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0" defer></script>
     <script src="/js/app.js" defer></script>
 </head>
 <body>

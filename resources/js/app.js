@@ -3,6 +3,19 @@ window.axios = require('axios');
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.Vue = require('vue').default;
 
+import Snotify, { SnotifyPosition } from 'vue-snotify'
+const options = {
+  toast: {
+    position: SnotifyPosition.rightTop,
+    timeout: 3000,
+    // showProgressBar: true,
+    // closeOnClick: false,
+    pauseOnHover: true
+  }
+}
+
+Vue.use(Snotify, options)
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
