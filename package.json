@@ -11,9 +11,9 @@
         "postinstall": "npm run prod"
     },
     "engines": {
-        "node": "0.10.x"
+        "node": "10.x"
     },
-    
+
     "devDependencies": {
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
