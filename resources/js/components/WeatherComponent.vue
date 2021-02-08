@@ -58,7 +58,7 @@
                         class="d-flex flex-row text-center">
                             <div class="p-1 col-md-2 align-self-center">{{ toDayOfweek(day.dt) }}</div>
                             <div class="p-1 col-md-2 align-self-center">
-                                <img :src="'http://openweathermap.org/img/wn/' + day.weather[0].icon + '@2x.png'" width="50px" height="50px" alt="">
+                                <img :src="'https://openweathermap.org/img/wn/' + day.weather[0].icon + '@2x.png'" width="50px" height="50px" alt="">
                             </div>
                             <div class="p-1 col-md-6 align-self-center" style="font-size: 14px">
                                 <div>{{ firstLetterUpperCase(day.weather[0].description) }}</div>
