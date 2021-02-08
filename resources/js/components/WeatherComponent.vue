@@ -132,8 +132,8 @@ export default {
         },
         fetchData(){
             this.loading = true;
-            axios.get(`http://weather-app.test/api/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
-            // axios.get(`https://temperature-vue.herokuapp.com/api/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
+            // axios.get(`http://weather-app.test/api/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
+            axios.get(`https://temperature-vue.herokuapp.com/api/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
             .then(({data:{current, daily}}) => {
                 this.currentTemInfo.actual = Math.round(current.temp);
                 this.currentTemInfo.feels = Math.round(current.feels_like);
