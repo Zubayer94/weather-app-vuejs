@@ -9,7 +9,6 @@
         "prod": "npm run production",
         "production": "mix --production"
     },
-    "heroku-run-prod-script": true,
     "engines": {
         "node": "9.x"
     },
