@@ -117,7 +117,7 @@ export default {
         },
         fetchData(){
             this.loading = true;
-            axios.get(`https://temperature-vue.herokuapp.com/api/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
+            axios.get(`https://temperature-vue234.herokuapp.com/api/getWeather?lat=${this.location.lat}&lon=${this.location.lon}`)
             .then(({data:{current, daily}}) => {
                 this.currentTemInfo.actual = Math.round(current.temp);
                 this.currentTemInfo.feels = Math.round(current.feels_like);
