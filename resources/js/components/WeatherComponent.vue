@@ -139,7 +139,7 @@ export default {
                 this.currentTemInfo.feels = Math.round(current.feels_like);
                 this.currentTemInfo.summary = current.weather[0].description;
                 this.currentTemInfo.shortSummary = current.weather[0].main;
-                this.currentTemInfo.icon = `http://openweathermap.org/img/wn/${current.weather[0].icon}@2x.png`;
+                this.currentTemInfo.icon = `https://openweathermap.org/img/wn/${current.weather[0].icon}@2x.png`;
                 this.daily = daily;
             })
             .catch(({response:{statusText}}) => {
