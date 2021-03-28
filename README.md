@@ -1,10 +1,10 @@
-<!-- ![fooo](https://user-images.githubusercontent.com/9766310/36504143-7796099e-178a-11e8-90df-5a1ed43a65b3.png) -->
+![sample-image](https://raw.githubusercontent.com/Zubayer94/weather-app-vuejs/main/public/img/sample.PNG)
 
 # weather app with Vue.JS, Laravel and Open-weather API
 
 # [weather-app-vuejs live](https://temperature-vue.herokuapp.com/)
 
-A local weather app that fetches weather forecast from [OpenWeather](https://openweathermap.org/). It shows current weather information with 6 days forecast built with Vue.js and larvael to sucure api token and limit api rate limit. For city longitude and latitude data used [Algolia](https://www.algolia.com/).\
+A responsive weather app that fetches weather forecast from [OpenWeather](https://openweathermap.org/) API. It shows current weather information with forthcoming 6 days forecast built with Vue.js and larvael to sucure api token and limit the api hitting rate. For city longitude and latitude data used [Algolia](https://www.algolia.com/) API.\
 To build this app on your machine you need to put your api token providing from OpenWeather on .env file then follow the below steps:
 
 ## Available Scripts
