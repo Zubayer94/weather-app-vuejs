@@ -4,7 +4,7 @@
 
 # [weather-app-vuejs live](https://temperature-vue.herokuapp.com/)
 
-A responsive weather app that fetches weather forecast from [OpenWeather](https://openweathermap.org/) API. It shows current weather information with forthcoming 6 days forecast built with Vue.js and larvael to sucure api token and limit the api hitting rate. For city longitude and latitude data used [Algolia](https://www.algolia.com/) API.\
+A responsive weather app that fetches weather forecast from [OpenWeather](https://openweathermap.org/) API. It shows current weather information with forthcoming 6 days forecast built with Vue.js and Larvael. Secured api token and limited the api hitting rate. For city longitude and latitude data used [Algolia](https://www.algolia.com/) API.\
 To build this app on your machine you need to put your api token providing from OpenWeather on .env file then follow the below steps:
 
 ## Available Scripts
